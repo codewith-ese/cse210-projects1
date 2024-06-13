@@ -14,21 +14,21 @@ class Program
 
         if (userGrade >=90)
         {
-            letterGrade ="A";
+            Console.WriteLine($" {letterGrade}  A ");
         }
         else if (userGrade >= 80)
         {
-            letterGrade = "B";
+            Console.WriteLine($" {letterGrade}  B ");
         }
         else if (userGrade >= 70)
         {
-            letterGrade = "C";
+            Console.WriteLine($" {letterGrade}  C ");
 
         }
 
         else if (userGrade >= 60)
         {
-            letterGrade = "D";
+            Console.WriteLine($" {letterGrade}  C ");
         }
 
         else
@@ -51,7 +51,6 @@ class Program
             Console.WriteLine(" Better luck next time ");
             Console.WriteLine("===============================");
         }
-
 
     }
 }
