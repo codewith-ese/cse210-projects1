@@ -4,27 +4,6 @@ using System.Collections.Generic;
 
 public class Journal
 {
-
-   // public List<Entry> _entries;
-
-    // public void AddEntry(Entry newEnty)
-    // {
-    //     Console.WriteLine();
-    //     Console.WriteLine("what do you think? ");
-    //     string _entryText = Console.ReadLine();
-    // }
-
-//  //   public void DisplayAall()
-//     {
-//         foreach (Entry words1 in _entries)
-//         {
-//             // This code will call the Display method on each words
-//             words1.Display();
-
-//         }
-
-//     }
-
     public static void SaveToFile(List<Entry> entries)
     {
         Console.WriteLine(" What is the file name? ");
