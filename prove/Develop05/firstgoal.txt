@@ -1,0 +1,3 @@
+[ ]---SimpleGoal:  Give a talk | To give a talk in sacrament meeting  | 20 
+[ ]---EternalGoal:  Study  | To study the book of momorn and the bile  | 30 
+[ ]---ChecklistGoal:  Atted the temple | perform diffrent ordinace in th temple | 10 

@@ -2,6 +2,7 @@ using System.Globalization;
 using System.IO;
 using System.Collections.Generic;
 
+
 public class Journal
 {
     public static void SaveToFile(List<Entry> entries)
