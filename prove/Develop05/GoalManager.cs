@@ -1,10 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.IO;
-using System.Net.NetworkInformation;
-using System.Threading.Tasks.Dataflow;
+
 public class GoalManager 
 {
     // Attribut (private)

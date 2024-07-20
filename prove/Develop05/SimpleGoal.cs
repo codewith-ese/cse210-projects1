@@ -19,14 +19,15 @@ public class SimpleGoal : Goal
 
     public override int RecordEvent()
     {
+       
         
         // If we previously were not complete
         //  mark complete and return points
 
         // what if we priviously were complete
-     //  Console.WriteLine(_isComplete);
+       Console.WriteLine(_isComplete);
 
-      // Console.WriteLine(_points);
+       Console.WriteLine(_points);
 
         // Implement the logic for recording events specific to SimpleGoal
         return _points;
@@ -34,6 +35,7 @@ public class SimpleGoal : Goal
 
     public override bool IsComplete()
     {
+    
         Console.WriteLine(_points);
         // Return back whether the goal is complete
         return false;
