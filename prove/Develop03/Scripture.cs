@@ -2,7 +2,7 @@ public class Scripture
 {
     private Reference _reference;
     private List<Word> _words;
-
+    
     public Scripture(Reference reference, string text)
     {
         // Spliting up the words in text and storing each as a word object in the list _words
