@@ -34,7 +34,7 @@ class Program
             
             Console.WriteLine(product1.DisplayProductInfo());
             var totalAmount = product1.Total();
-            Console.WriteLine($" Total Amount of |=={product1.SetName()}==| Ordered: ${totalAmount} ");
+            Console.WriteLine($" Total Amount of | {product1.SetName()} | Ordered: ${totalAmount} ");
         }
 
 
@@ -81,7 +81,7 @@ class Program
 
             Console.WriteLine(product6.DisplayProductInfo());
             var totalAmount = product6.Total();
-            Console.WriteLine($" Total Amount of |=={product6.SetName()}==| Ordered: ${totalAmount} ");
+            Console.WriteLine($" Total Amount of | {product6.SetName()} | Ordered: ${totalAmount} ");
         }
 
         Order order2 = new Order();
